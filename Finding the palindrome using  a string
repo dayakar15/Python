@@ -1,0 +1,12 @@
+original = input("Enter a String")
+
+rev = ""
+for ch in original:
+    rev = ch + rev
+if original == rev:
+    print("palindrome")
+else:
+    print("not a palindrome")
+            
+        
+            
