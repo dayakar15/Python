@@ -1,0 +1,6 @@
+text = input("Enter a stirng")
+count = 0
+for ch in text:
+    if "a" <= ch <= "z":
+        count += 1
+print("number of words:", count)
