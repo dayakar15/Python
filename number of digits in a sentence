@@ -1,0 +1,7 @@
+text = input("Enter a stirng")
+count = 0
+for ch in text:
+    if "0" <= ch <= "9":
+        count += 1
+print("number of digits:", count)
+        
