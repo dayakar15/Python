@@ -1,0 +1,8 @@
+text = input("Enter a string")
+rev = ""
+for ch in text:
+    if "A" <= ch <= "Z":
+        rev += chr(ord(ch) + 32)
+    else:
+        rev += ch
+print("lowercase:", rev)
