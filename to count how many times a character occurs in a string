@@ -1,0 +1,7 @@
+text = input("Enter a String")
+target = input("enter a character to count")
+count = 0
+for ch in text:
+    if ch == target:
+        count += 1
+print("total count:", count)
