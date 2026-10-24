@@ -1,0 +1,6 @@
+base = int(input("Enter a number"))
+exponent = int(input("Enter a NUmber"))
+result  = 1
+for i in range(exponent):
+    result = result * base
+print("result:", result)
